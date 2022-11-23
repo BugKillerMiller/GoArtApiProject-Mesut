@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json"},
         features = "src/test/resources/features",
         glue = "goart/steps",
-        tags = "@full"
+        tags = "@chosen"
 )
 public class CukesRunner {
 
